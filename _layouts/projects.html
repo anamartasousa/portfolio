@@ -1,0 +1,11 @@
+---
+layout: page
+
+---
+{% for projects in site.projects %}
+<div class="projects">
+<h2>{{projects.title}}</h2>
+{{projects.content}}
+</div>
+
+{% endfor %}
