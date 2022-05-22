@@ -4,7 +4,7 @@ layout: page
 {% for projects in site.projects %}
 <div class="projects">
 <h2><a href="{{site.baseurl}}/projects/{{projects.slug}}">{{projects.title}}</a></h2>
-{{projects.content}}
+{{projects.summary}}
 </div>
 
 {% endfor %}
