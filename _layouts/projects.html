@@ -1,10 +1,9 @@
 ---
 layout: page
-
 ---
 {% for projects in site.projects %}
 <div class="projects">
-<h2>{{projects.title}}</h2>
+<h2><a href="{{site.baseurl}}/projects/{{projects.slug}}">{{projects.title}}</a></h2>
 {{projects.content}}
 </div>
 
