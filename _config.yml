@@ -56,3 +56,9 @@ collections:
   projects:
     output: true
     permalink: projects/:path/
+    order:
+      - closedinbox.md
+      - fbaulwebsite.md
+      - whichcamefirst.md
+      - geladoslis.md
+    
