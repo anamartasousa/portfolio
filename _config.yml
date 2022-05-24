@@ -53,12 +53,15 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  projects:
+  portfolio:
     output: true
-    permalink: projects/:path/
+    permalink: portfolio/:path/
     order:
       - closedinbox.md
       - fbaulwebsite.md
       - whichcamefirst.md
       - geladoslis.md
-    
+
+sass:
+  sass_dir: _sass
+  style: compressed
