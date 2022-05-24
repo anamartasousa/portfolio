@@ -9,29 +9,16 @@ I'm a newly turned user interface and user experience designer. I strive to crea
 
 ## Work experience
 
-### Designer and Art Director
-Estúdio Tipo-Grafia - sept2020-now
-
-### Graphic Design Intern
-Planetário do Porto - feb2020-may2020
-
-### Freelancer
-2016-now
+{% for item in site.data.cvwork %}
+{{ item.title }} {{ item.institution }} {{ item.description }} {{ item.time }}
+{% endfor %}
 
 
 ## Education
 
-### Postgrad Degree - Digital Experience Design
-#### FACULTY OF FINE ARTS - UNIVERSITY OF LISBON
-september 2021 - june 2022
-
-### BA Communication Design
-#### FACULTY OF FINE ARTS - UNIVERSITY OF PORTO
-september 2016 - june 2020
-
-### Erasmus+
-#### MIDDLESEX UNIVERSITY - LONDON
-september 2018 - june 2019
+{% for item in site.data.cvschool %}
+{{ item.title }} {{ item.institution }} {{ item.description }} {{ item.time }}
+{% endfor %}
 
 ## Tools
 ### Figma
