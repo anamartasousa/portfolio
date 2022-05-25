@@ -52,6 +52,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 collections:
   portfolio:
     output: true
@@ -61,7 +65,3 @@ collections:
       - fbaulwebsite.md
       - whichcamefirst.md
       - geladoslis.md
-
-sass:
-  sass_dir: _sass
-  style: compressed

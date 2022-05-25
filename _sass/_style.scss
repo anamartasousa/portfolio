@@ -10,13 +10,12 @@
 // LAYOUT
 @import "layout/footer";
 @import "layout/header";
-@import "layout/navigation";
 @import "layout/grid";
 
 // COMPONENTS
-@import "abstracts/burger";
-@import "abstracts/buttons";
-@import "abstracts/icons";
+@import "components/burger";
+@import "components/buttons";
+@import "components/icons";
 
 //PAGES
 @import "pages/about";
