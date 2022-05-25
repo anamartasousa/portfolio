@@ -1,5 +1,6 @@
 ---
 layout: page
+
 title: Portfolio
 ---
 {% for portfolio in site.portfolio %}
@@ -8,9 +9,4 @@ title: Portfolio
 {{portfolio.summary}}
 </div>
 
-{% endfor %}
-
-
-{% for item in site.data.cvwork %}
-{{ item.title }} {{ item.institution }} {{ item.description }} {{ item.time }}
 {% endfor %}
