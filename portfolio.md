@@ -1,6 +1,5 @@
 ---
-layout: page
-
+layout: default
 title: Portfolio
 ---
 {% for portfolio in site.portfolio %}

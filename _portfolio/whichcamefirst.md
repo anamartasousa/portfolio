@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Which Came First?
 summary: Layout and print design of Errol Morris' essay
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Closed Inbox
 summary: A new Gmail feature - Case Study
 ---
