@@ -4,13 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-If you want to drop me a message, to collaborate on some project or for any other reason, get in touch through any of the following:
+If you want to drop me a message, get in touch through any of the following:
 
-# Email
-[ana.m.c.d.sousa@gmail.com](mailto:ana.m.c.d.sousa@gmail.com)
-
-# Linkedin
-[@anamartasousa](https://www.linkedin.com/in/anamartasousa/)
-
-# Behance
-[@anamartasousa](https://www.behance.net/anamartasousa)
+{% for item in site.data.social %}
+{{ item.title }} {{ item.handle }} {{ item.link }}
+{% endfor %}
