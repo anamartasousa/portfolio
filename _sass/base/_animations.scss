@@ -1,49 +1,187 @@
-.gradient {
-    background: linear-gradient(270deg, #ff85e5, #bab6e9, #ff85e5, #ffe478);
-    background-size: 800% 800%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+.radial-gradient1 {
+  border-radius: 50%;
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  top:0px;
+  left:0px;
+  transform: translate(-50%, -50%);
+  opacity:80%;
+  z-index: -1;
+  
+  /*Linear gradient... */
+  background: 
+  radial-gradient(rgba(255, 133, 229,1) 30%, rgba(255,255,255,0) 60%);;
+  animation-name: slidein1;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes slidein1 {
+  from {
+  top:0vh;
+  left:0vw;
+  }
+
+  25% {
+  top:0vh;
+  left: 100vw;
   }
   
-  @-webkit-keyframes AnimationName {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+  50% {
+  top:100vh;
+  left:100vw;
   }
   
-  @-moz-keyframes AnimationName {
-    0% {
-      background-position: 0% 50%;
-    }
+  75% {
+  top:100vh;
+  left: 0vw;
+  }
+
+  to {
+  top:0vh;
+  left:0vw;
+  }
+}
+
+.radial-gradient2 {
+  border-radius: 50%;
+  position:fixed;
+  width:1200px;
+  height:800px;
+  top:0px;
+  left:0px;
+  transform: translate(-50%, -50%);
+  opacity:80%;
+  z-index: -1;
   
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+  /*Linear gradient... */
+  background: 
+  radial-gradient(rgba(255, 228, 120,1) 30%, rgba(255,255,255,0) 60%);
+  animation-name: slidein2;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes slidein2 {
+  from {
+  top:0vh;
+  left: 100vw;
+  }
+
+  25% {
+  top:100vh;
+  left: 100vw;
   }
   
-  @keyframes AnimationName {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+  50% {
+    top:100vh;
+    left:0vw;
   }
+  
+  75% {
+  top:0vh;
+  left: 0vw;
+  }
+
+  to {
+  top:0vh;
+  left:100vw;
+  }
+}
+
+.radial-gradient3 {
+  border-radius: 50%;
+  position:fixed;
+  width:1200px;
+  height:800px;
+  top:0px;
+  left:0px;
+  transform: translate(-50%, -50%);
+  opacity:80%;
+  z-index: -1;
+  
+  /*Linear gradient... */
+  background: 
+    radial-gradient(rgba(255, 133, 229,1) 30%, rgba(255,255,255,0) 60%);
+  animation-name: slidein3;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes slidein3 {
+  from {
+  top:100vh;
+  left: 100vw;
+  }
+
+  25% {
+  top:100vh;
+  left: 0vw;
+  }
+  
+  50% {
+  top:0vh;
+  left:0vw;
+  }
+  
+  75% {
+  top:0vh;
+  left: 100vw;
+  }
+
+  to {
+  top:100vh;
+  left:100vw;
+  }
+}
+
+.radial-gradient4 {
+  border-radius: 50%;
+  position:fixed;
+  width:1200px;
+  height:800px;
+  top:50px;
+  left:50px;
+  transform: translate(-50%, -50%);
+  opacity:80%;
+  z-index: -1;
+  
+  /*Linear gradient... */
+  background: 
+    radial-gradient(rgba(186, 182, 233,1) 30%, rgba(255,255,255,0) 60%);
+  animation-name: slidein4;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes slidein4 {
+  from {
+  top:100vh;
+  left:0vw;
+  }
+
+  25% {
+  top:0vh;
+  left: 0vw;
+  }
+  
+  50% {
+  top:0vh;
+  left:100vw;
+  }
+  
+  75% {
+  top:100vh;
+  left:100vw;
+  }
+
+  to {
+  top:100vh;
+  left:0vw;
+  }
+}

@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<h1>teste</h1>
-
 I'm a newly turned user interface and user experience designer. I strive to create appealing visual solutions, using form as the tool that establishes a connection between user and content.
 
 
