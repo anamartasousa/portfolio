@@ -1,25 +1,31 @@
 // TITLE FONT
 @font-face {
     font-family: 'Pilowlava';
-    src: url('../../fonts/Pilowlava-Regular.otf') format('opentype');
-    font-style: normal;
+    src: url('../../fonts/Pilowlava-Regular.woff');
 }
 
 $fonttitles: 'Pilowlava', Helvetica, Arial, sans-serif;
 $fonttext: Helvetica, Arial, sans-serif;
 
-
-
 h1 {
     font-family: $fonttitles;
-    color: $basecolour;
+    color: $primarycolour;
     font-size: 3em;
 }
 
 p, h2, h3, h4, h5, h6, ul, ol, li, a {
     font-family: $fonttext;
     font-weight: 200;
+    color: $primarycolour;
+    font-size: rem(40px);
+    line-height: rem(52px);
+}
+
+.site-nav .a{
+    font-family: $fonttext;
+    font-weight: 200;
     color: $basecolour;
     font-size: rem(40px);
     line-height: rem(52px);
 }
+
