@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Which Came First?
-summary: Layout and print design of Errol Morris' essay
+summary: A magazine version of Errol Morris' 1970 article - Editorial design
 ---
 
 Lorem ipsum dolor sit amet.
