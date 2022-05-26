@@ -28,5 +28,24 @@ main {
     z-index: -1;
   }
 
-  .hello
-  {align-self: center;}
+  .imagem-home {
+  display:flex;
+  justify-content: right;
+  padding-bottom:5vh
+  }
+
+  .hello {
+      width:80vw;
+      max-width: 500px;
+  }
+
+  .overlay {
+      position:fixed;
+      top:0;
+        left:0;
+      width:100vw;
+      height:100vh;
+      background-color:$basecolour;
+      opacity: 0.9;
+      z-index: -0.5;
+  }
