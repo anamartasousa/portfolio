@@ -11,8 +11,10 @@
     cursor: pointer;
   }
 
-  .btn:hover {
-    background-color: RoyalBlue;
+  .button:hover {
+    background-color: $secondarycolour;
+    transition-timing-function: ease-in-out;
+    transition: 1s;
   }
 
   .button p {
