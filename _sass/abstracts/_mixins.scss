@@ -1,0 +1,19 @@
+@mixin position1 {
+    top:0vh;
+    left:0vw;
+  }
+  
+  @mixin position2 {
+    top:0vh;
+    left:100vw;
+  }
+  
+  @mixin position3 {
+    top:100vh;
+    left:100vw;
+  }
+  
+  @mixin position4 {
+    top:100vh;
+    left:0vw;
+  }
