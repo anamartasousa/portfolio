@@ -4,7 +4,13 @@ title: About
 permalink: /about/
 ---
 
-I'm a newly turned user interface and user experience designer. I strive to create **appealing visual solutions**, using form as the tool that establishes a **connection between user and content**.
+{% include button.html %}
+
+pronouns: **she/her/hers**
+
+I'm a newly turned user interface and user experience designer. 
+
+I strive to create **appealing visual solutions**, using form as the tool that establishes a **connection between user and content**.
 
 
 ## Work experience

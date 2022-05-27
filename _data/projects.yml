@@ -1,29 +1,33 @@
-- img: closedinboxthumbnail
+- img: assets/images/photos/projects/thumbnails/closedinbox.png
   title: Closed Inbox
+  alt: 
   type: UI/UX case study
   year: jan 2022
   description: An email blocking feature for Gmail
   slug: closedinbox
   nature: University project | FBAUL
 
-- img: fbaulthumbnail
+- img: assets/images/photos/projects/thumbnails/fbaul.png
   title: FBAUL website
+  alt:
   type: UI/UX case study
   year: jan 2022
   description: A student focused website redesign for FBAUL
   slug: fbaulwebsite
   nature: University project | FBAUL
 
-- img: geladoslisthumbnail
+- img: assets/images/photos/projects/thumbnails/geladoslis.png
   title: Gelados Lis
+  alt:
   type: Art direction
   year: 2020 to 2022
   description: IG content for a local ice cream shop
   slug: geladoslis
   nature: Client project | Estúdio Tipo—Grafia
 
-- img: whichcamefirstthumbnail
+- img: assets/images/photos/projects/thumbnails/whichcamefirst.png
   title: Which came first?
+  alt:
   type: Editorial design
   year: mar 2020
   description: A magazine version of Errol Morris' 1970 article
