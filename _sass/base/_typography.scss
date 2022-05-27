@@ -21,14 +21,71 @@ p, h2, h3, h4, h5, h6, ul, ol, li, a {
     line-height: rem(52px);
 }
 
-.default-content p, h2, h3, h4, h5, h6, ul, ol, li, a {
-    color: $primarycolour;
+h2 {
+    font-weight: 600;
+    text-transform: lowercase;
 }
 
-.site-nav .a{
+h3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+h5 {
+    text-transform: lowercase;
+}
+
+
+.default-content h5, ul, ol, li, a {
+    color: $primarycolour;
+    margin-top: 0.4rem;
+}
+
+.default-content p {
+    color: $primarycolour;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem
+}
+
+.default-content h2 {
+    color: $primarycolour;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+}
+
+.default-content h3 {
+    color: $neutralcolour;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.default-content h4 {
+    color: $fadedneutralcolour;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.default-content h5 {
+    color: $neutralcolour;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.site-nav a{
     font-family: $fonttext;
-    font-weight: 200;
-    color: $basecolour;
+    color: $primarycolour;
     font-size: rem(40px);
     line-height: rem(52px);
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.default-content a {
+    font-weight: 600;
 }

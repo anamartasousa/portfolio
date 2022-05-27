@@ -3,10 +3,12 @@ layout: default
 title: Portfolio
 permalink: /portfolio/
 ---
-{% for portfolio in site.portfolio %}
-<div class="portfolio">
-<h2><a href="{{site.baseurl}}/portfolio/{{portfolio.slug}}">{{portfolio.title}}</a></h2>
-<p>{{portfolio.summary}}</p>
-</div>
+
+{% for project in site.data.projects %}
+## [{{ project.title }}]({{site.baseurl}}/portfolio/{{project.slug}})
+### {{ project.type }}
+{{ project.description }}
+#### {{ project.nature }}
+##### {{ project.year }}
 
 {% endfor %}
