@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: default
 title: FBAUL Website
 summary: FBAUL website redesign - Case Study
 ---

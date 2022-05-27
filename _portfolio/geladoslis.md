@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: default
 title: Gelados Lis
 summary: Ice Cream Shop Instagram - Art Direction
 ---

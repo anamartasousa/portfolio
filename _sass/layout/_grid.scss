@@ -1,0 +1,17 @@
+@media screen and (min-width: 800px) {
+    .gridcontainer {
+        display:grid;
+        grid-template-columns: 30vw 30vw;
+        justify-content: flex-start;
+        gap: 5vw;
+        justify-content: center;
+    }
+    
+    .griditem {
+        display: inline-grid;
+        width: 30vw;
+      }
+    .thumbnail {
+        max-width: 30vw;
+    }
+  }
