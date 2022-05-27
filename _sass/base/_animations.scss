@@ -8,7 +8,9 @@
   transform: translate(-50%, -50%);
   opacity:80%;
   z-index: -1;
-  
+}
+
+.radial-gradient1{
   background: 
   radial-gradient(rgba(255, 133, 229,1) 30%, rgba(255,255,255,0) 60%);;
   animation-name: slidein1;
@@ -17,30 +19,45 @@
   animation-timing-function: linear;
 }
 
-@keyframes slidein1 {
-  from {
+@mixin position1 {
   top:0vh;
   left:0vw;
+}
+
+@mixin position2 {
+  top:0vh;
+  left:100vw;
+}
+
+@mixin position3 {
+  top:100vh;
+  left:100vw;
+}
+
+@mixin position4 {
+  top:100vh;
+  left:0vw;
+}
+
+@keyframes slidein1 {
+  from {
+  include: position1()
   }
 
   25% {
-  top:0vh;
-  left: 100vw;
+  include: position2()
   }
   
   50% {
-  top:100vh;
-  left:100vw;
+  include: position3()
   }
   
   75% {
-  top:100vh;
-  left: 0vw;
+  include: position4()
   }
 
   to {
-  top:0vh;
-  left:0vw;
+  include: position1()
   }
 }
 
