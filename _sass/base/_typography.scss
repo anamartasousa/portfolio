@@ -21,6 +21,10 @@ p, h2, h3, h4, h5, h6, ul, ol, li, a {
     line-height: rem(52px);
 }
 
+.default-content p, h2, h3, h4, h5, h6, ul, ol, li, a {
+    color: $primarycolour;
+}
+
 .site-nav .a{
     font-family: $fonttext;
     font-weight: 200;
@@ -28,4 +32,3 @@ p, h2, h3, h4, h5, h6, ul, ol, li, a {
     font-size: rem(40px);
     line-height: rem(52px);
 }
-

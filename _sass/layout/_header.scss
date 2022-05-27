@@ -17,6 +17,7 @@
     height: 50px;
     top:0;
     display: flex;
+
     text-align: right;
     justify-content: flex-end;
     align-items: center;
@@ -33,5 +34,5 @@ a {
 }
 
 .home-header a {
-    color: $primarycolour
+    color: $basecolour
 }
