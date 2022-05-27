@@ -13,8 +13,7 @@
 
   .button:hover {
     background-color: $secondarycolour;
-    transition-timing-function: ease-in-out;
-    transition: 1s;
+    transition: 0.3s;
   }
 
   .button p {
@@ -22,4 +21,9 @@
       text-decoration: none;
       font-weight: 600;
       text-transform: uppercase;
+  }
+
+  #ana-marta:hover {
+    transform: translate(10vw, 0);
+    transition: 2s;
   }
