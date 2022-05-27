@@ -6,6 +6,7 @@
   description: An email blocking feature for Gmail
   slug: closedinbox
   nature: University project | FBAUL
+  alternativetext: A desktop and mobile version of mockups of the Closed Inbox feature in action in Gmail windows.
 
 - img: assets/images/photos/projects/thumbnails/fbaul.png
   title: FBAUL website
@@ -15,6 +16,7 @@
   description: A student focused website redesign for FBAUL
   slug: fbaulwebsite
   nature: University project | FBAUL
+  alternativetext: A desktop and mobile version of mockups of the FBAUL website redesign project.
 
 - img: assets/images/photos/projects/thumbnails/geladoslis.png
   title: Gelados Lis
@@ -24,6 +26,7 @@
   description: IG content for a local ice cream shop
   slug: geladoslis
   nature: Client project | Estúdio Tipo—Grafia
+  alternativetext: Over a colourful background, an ice cream inside a glass case that reads "Break in case of emergency". Next to it, a hammer.
 
 - img: assets/images/photos/projects/thumbnails/whichcamefirst.png
   title: Which came first?
@@ -33,3 +36,4 @@
   description: A magazine version of Errol Morris' 1970 article
   slug: whichcamefirst
   nature: University project | FBAUP
+  alternativetext: A three volume black and white magazine, spread next to a yellow sleeve with the magazine title.
